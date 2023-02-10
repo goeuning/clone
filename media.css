@@ -1,0 +1,34 @@
+/* 1400 이하 */
+@media screen and (max-width: 1400px) {
+  #language { }
+  #language dd { width: inherit; height: inherit;
+                background: transparent;  }
+  #language dd:first-of-type { box-shadow: 0 0 transparent; }
+  .goFranchise { width: inherit; height: inherit; 
+                background: none; box-shadow: 0 0 transparent;
+                text-indent: 0;}
+  .goFranchise { background: none; filter: none; }
+  #quickMenu { display: none; }
+  #coupon { background: url(../images/bg_mobile_pattern.gif); }
+  #coupon a { transform: translateX(0); text-align: center; }
+
+}
+/* 1150 이하 */
+@media screen and (max-width:1150px) {
+#header { align-items: center; }
+#header .logo { position: static; }
+#gnb { display: none; }
+main > section { height: auto; min-height: auto;
+                  padding: 100px 0; }
+#event { height: 100vh; }
+}
+/* 1050 이하 */
+@media screen and (max-width:1050px) {
+  #event { background: url(../images/bg_event.png) no-repeat center 100px / 500px,
+                        linear-gradient(45deg, #f7eedb 55%, #ffd0c7);}
+  #event dl { transform: translateX(0) translateY(100px); }
+  #menu { background: #f7eedb; }
+  .menuInner { transform: translateX(0); }
+  #communityList { flex-wrap: wrap; }
+  #communityList li { width: 32%; margin-bottom: 10px; }
+}

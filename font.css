@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* 지마켓 */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('../font/gmarketsansttfmedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('../font/gmarketsansttflight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('../font/gmarketsansttfmedium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
